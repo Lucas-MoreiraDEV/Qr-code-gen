@@ -1,0 +1,28 @@
+    # Node.js dependencies
+    /node_modules
+    .npm/
+    .node-gyp/
+    npm-debug.log*
+    yarn-debug.log*
+    yarn-error.log*
+    lerna-debug.log*
+
+    # Build artifacts
+    /dist
+    /build
+    /out
+
+    # Environment variables
+    .env
+    .env.local
+    .env.*.local
+
+    # Editor/IDE specific files
+    .vscode/
+    .idea/
+    *.sublime-project
+    *.sublime-workspace
+
+    # OS generated files
+    .DS_Store
+    Thumbs.db
